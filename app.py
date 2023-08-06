@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 import recommender
-
 app = Flask(__name__)
 
 
